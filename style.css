@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(241, 241, 241);
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: cornflowerblue;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin: 1.2em auto .2em;
+}
+
+#description{
+    margin: .4em auto 1.6em;
+}
+
+#survey-form{
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 44, 83);
+    padding: 1.3em 2em 1.2em;
+    border-radius: .5em;
+}
+
+#dropdown,
+#dropdown option{
+    color: black;
+    height: 2em;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    height: 2em;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+label{
+    margin-top: 1.2em ;
+    margin-bottom: .4em;
+}
+
+.jenisKelamin,
+.hobi{
+     margin-top: 1.2em;
+}
+
+#submit{
+    display: flex;
+    margin-top: 1.5em;
+    padding: .5em;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+
+    background-color: blueviolet;
+    box-shadow: none;
+}
+
+#submit:hover{
+    background-color: rgb(93, 40, 143);
+    transition: .5s;
+}

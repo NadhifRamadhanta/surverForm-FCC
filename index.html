@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <h1 id="title">Nadip Survey Form</h1>
+    <p id="description"> Bantu Saya PutPut Untuk Mengisi Survey Ini(Survey Boongan)</p>
+
+    <form action="" id="survey-form">
+        <label for="" id="name-label">Name :</label>
+        <input type="name" id="name" placeholder="Masukan Nama Anda" required>
+
+        <label for="" id="email-label">Email :</label>
+        <input type="email" id="email" placeholder="Masukan Email Anda" required>
+
+        <label for="" id="number-label">Age :</label>
+        <input type="number" id="number" minlength="10" min="1" max="90" maxlength="120" placeholder="Masukan Umur Anda" required>
+
+        <label for="">Pekerjaan : </label>
+        <select name="" id="dropdown">
+            <option value="pelajar">Pelajar</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Guru">Guru</option>
+            <option value="Dosen">Dosen</option>
+            <option value="Karyawan">Karyawan</option>
+            <option value="lain">Lainnya</option>
+        </select>
+
+        <div class="jenisKelamin">
+            <label for="">Jenis Kelamin : </label><br>
+                <input type="radio" id="laki" name="jk" value="laki"><label for="laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jk" value="perempuan"> <label for="perempuan">Perempuan</label>
+                <input type="radio" id="rahasia" name="jk" value="rahasia"> <label for="rahasia">Rahasia</label>
+        </div>
+
+        <div class="hobi">
+            <label for="">Hobi :</label><br>
+            <input type="checkbox" id="skate" value="skate"> <label for="skate">Skateboad</label><br>
+            <input type="checkbox" id="drakor" value="drakor"> <label for="drakor">Ngedrakor</label><br>
+            <input type="checkbox" id="bola" value="bola"> <label for="bola">Main Bola</label><br>
+            <input type="checkbox" id="nadip" value="nadip"> <label for="nadip">Nadip</label><br>
+            <input type="checkbox" id="lain" value="lain"> <label for="lain">DLL</label><br>
+        </div>
+  
+            <label for="">Masukan: </label>
+            <textarea name="masukan" id="masukan" placeholder="Isi Cok" cols="30" rows="3"></textarea>    
+
+        <button id="submit" type="submit">SUBMIT</button>
+
+    </form>
+</div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
